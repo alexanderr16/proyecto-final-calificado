@@ -1,0 +1,85 @@
+body {
+	color: white;
+	width: 90%;
+	background: #02010a;
+	font-family: Dancing Script, cursive;
+	src: url(../fuentes/DancingScript-Regular.ttf);
+	text-shadow: 1px 2px black;
+	animation: slidein 1s;
+}
+
+header {
+	padding: 1vh 1vw;
+	margin-bottom: 1vh;
+	border-radius: 10px;
+	background-color: #5b7989;
+}
+
+#contenido {
+	margin: 1%;
+}
+
+.contenedor{
+	display: flex;
+	flex-direction: row;
+	background:#d5c75f;
+}
+img{
+	width: 400px;
+}
+
+footer {
+	font-size: 0.8em;
+	border-top: solid 2px #1f47a8;
+	padding-top: 1vw;
+	margin-top: 1vw;
+	text-align: inherit;
+  background-color: #C6d5c5;
+	flex-direction: row;∫
+}
+
+figure {
+	text-align: center;
+	margin: 100px;
+}
+
+figure img {
+	width: 420px;
+}
+
+img{
+	border-radius: 10px;
+}
+#imagen1 img{
+	-webkit-filter: blur(10px);
+	filter: (10px);
+}
+#imagen2 img{
+	-webkit-filter: grayscale(100%);
+	filter: (100%);
+}
+#imagen4 img{
+	-webkit-filter: grayscale(100%);
+	filter: (100%);
+}
+#imagen6 img{
+	-webkit-filter: grayscale(100%);
+	filter: (100%);
+}
+#imagen3 img{
+	-webkit-filter: sepia(90%);
+	filter: (90%);
+}
+@keyframes slidein{
+0% {
+margin-top: 150%;
+}
+
+60% {
+margin-top: -5%;
+}
+
+100% {
+margin-top: 0%;
+}
+}
